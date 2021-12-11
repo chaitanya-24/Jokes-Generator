@@ -1,0 +1,47 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(158, 194, 197);
+    
+}
+
+.container{
+    position: relative;
+    left: 20rem;
+    top: 10rem;
+    min-height: 45vh;
+    max-height: 70vh;
+    height: auto;
+    width: 50%;
+    text-align: center; 
+    background-color: rgb(172, 131, 131);
+    
+}
+
+.head{
+    margin: 0 17rem;
+    padding: 2rem 2rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container #joke{
+    font-size: 1.2rem;
+    position: relative;
+    margin: 0.8rem 0.5rem;
+    color: rgb(18, 27, 27);
+
+}
+
+#jokeBtn{
+    background-color: lightgray;
+    position: relative;
+    top: 11.8rem;
+    left: 38.2rem;
+    border-radius: 1rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+} 
